@@ -13,3 +13,20 @@ Este proyecto cuenta con la asistencia de **GitHub Copilot**, impulsado por **Cl
 - **Documentación**: Genera documentación clara y útil para facilitar la comprensión del proyecto.
 - **Automatización de Tareas**: Automatiza procesos repetitivos mediante scripts y herramientas.
 
+## Características
+- **Búsqueda en Tiempo Real**: Filtrado por nombre, categoría, fabricante o registro sanitario.
+- **Sincronización con ARCSA**: Botón para descargar y actualizar el catálogo desde la fuente oficial de Ecuador.
+- **Diseño Clínico**: Interfaz moderna y responsiva basada en los colores institucionales.
+
+## Instalación
+
+1. Clona este repositorio.
+2. Instala las dependencias:
+   ```bash
+   pip install nicegui requests beautifulsoup4 openpyxl
+   ```
+3. Ejecuta la aplicación:
+   ```bash
+   python app.py
+   ```
+

@@ -1,0 +1,54 @@
+<div class="section">
+  <h2>Evolución Visual: Catálogo Farma EC</h2>
+  <p class="subtitle">Ya confirmamos que usaremos NiceGUI y un menú desplegable para categorías. ¿Qué estética te gusta más?</p>
+</div>
+
+<div class="options">
+  <div class="option" data-choice="clinico" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>🏥 Estilo Clínico Moderno</h3>
+      <p>Limpio, profesional y directo. Fondo blanco con acentos verdes (#2E7D32). Ideal para un servicio público confiable.</p>
+      <div style="margin-top:15px; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff;">
+        <div style="background:#2E7D32; color:white; padding: 10px; display:flex; justify-content:space-between; align-items:center;">
+          <b style="font-size:0.9em;">Farma EC</b>
+          <span style="font-size: 0.7em;">Ecuador</span>
+        </div>
+        <div style="padding:15px;">
+          <div style="display:flex; gap:10px; margin-bottom:15px;">
+            <div style="flex:1; border:1px solid #ccc; padding:5px; border-radius:4px; font-size:0.75em; color:#999;">Buscador...</div>
+            <div style="width:80px; border:1px solid #ccc; padding:5px; border-radius:4px; font-size:0.75em; color:#999; text-align:right;">▼ Cat.</div>
+          </div>
+          <div style="padding:10px; border:1px solid #eee; border-left:4px solid #2E7D32; border-radius:4px;">
+            <b style="color:#2E7D32; font-size:0.85em;">Paracetamol</b><br>
+            <span style="font-size:0.7em; color:#666;">Tableta 500 mg</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="hightech" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>🚀 Estilo High-Tech / Glass</h3>
+      <p>Moderno, tecnológico y futurista. Fondo oscuro (#121212) con efectos de cristal y acentos dorados/azules.</p>
+      <div style="margin-top:15px; border: 1px solid #333; border-radius: 8px; overflow: hidden; background: #121212;">
+        <div style="background:rgba(21, 101, 192, 0.2); backdrop-filter: blur(5px); color:white; padding: 10px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.1);">
+          <b style="font-size:0.9em;">Farma EC <span style="color:#F9A825">Pro</span></b>
+          <span style="font-size: 0.7em; opacity: 0.7;">EC</span>
+        </div>
+        <div style="padding:15px;">
+           <div style="display:flex; gap:10px; margin-bottom:15px;">
+            <div style="flex:1; background:rgba(255,255,255,0.05); border:1px solid #444; padding:5px; border-radius:4px; font-size:0.75em; color:#888;">🔍 Buscar...</div>
+            <div style="width:50px; background:rgba(255,255,255,0.05); border:1px solid #444; padding:5px; border-radius:4px; font-size:0.75em; color:#888; text-align:right;">▼</div>
+          </div>
+          <div style="padding:10px; background:rgba(255,255,255,0.03); border:1px solid rgba(249, 168, 37, 0.3); border-radius:10px;">
+            <b style="color:#F9A825; font-size:0.85em;">Paracetamol</b><br>
+            <span style="font-size:0.7em; color:#aaa;">Tableta 500 mg</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

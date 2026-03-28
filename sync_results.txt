@@ -1,0 +1,63 @@
+Total: 15460
+Con fabricante: 15458
+Titulares unicos: 2479
+Fabricantes unicos: 3331
+Categorias unicas: 7267
+
+Top 20 Categorias:
+  Monofrmaco: 1414
+  Bifrmaco: 340
+  Polifrmaco: 195
+  Ibuprofeno: 105
+  Paracetamol: 93
+  Diclofenaco Sdico: 67
+  Amoxicilina Trihidrato: 64
+  Clotrimazol: 62
+  Loratadina: 57
+  Aciclovir: 56
+  Pregabalina: 56
+  Etoricoxib: 50
+  Principio Activo:: 50
+  Ketorolaco Trometamina: 46
+  Levetiracetam: 46
+  Meloxicam: 43
+  Ncleo:: 43
+  Cloruro De Sodio: 42
+  Azitromicina Dihidrato: 41
+  Fluconazol: 41
+
+Muestra de 3 registros:
+---
+  registro: 00012-1-MAN-03-05
+  nombre: ACYVIR 5 % CREMA
+  forma: Crema
+  concentracion: 5 %
+  categoria: Monofrmaco
+  titular: JULPHARMA GROUP S.A
+  fabricante: LABORATORIOS H.G. C.A. GUAYAQUIL - ECUADOR
+  forma_venta: Libre
+  estado: VIGENTE
+  ultima_actualizacion: 2026-03-28
+---
+  registro: 00013-1-MAN-02-05
+  nombre: COMPLEJO B VITIN 1612
+  forma: JARABE
+  concentracion: CLORHIDRATO DE TIAMINA (VIT. B1) 0,010000 g
+RIBOFLAVINA 5-FOSFATO SODICO (VIT. B
+  categoria: Clorhidrato De Tiamina (Vit. B1)          0,
+  titular: LABORATORIOS DR. A. BJARNER C.A.
+  fabricante: LABORATORIOS DR. A. BJARNER C.A.
+  forma_venta: Libre
+  estado: VIGENTE
+  ultima_actualizacion: 2026-03-28
+---
+  registro: 00034-1-MAE-05-05
+  nombre: AGUA ESTERIL PARA INYECCIN USP
+  forma: SOLUCIN ACUOSA INCOLORA
+  concentracion: Agua para inyeccin USP        100 %
+  categoria: Agua Para Inyeccin Usp
+  titular: LABORATORIOS BAXTER S.A
+  fabricante: LABORATORIOS BAXTER S.A
+  forma_venta: Libre
+  estado: VIGENTE
+  ultima_actualizacion: 2026-03-28

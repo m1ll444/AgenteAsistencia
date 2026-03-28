@@ -1,0 +1,39 @@
+<div class="section">
+  <h2>Diseño de Arquitectura: Fase 1</h2>
+  <p class="subtitle">Sección 1: Organización de Archivos y Flujo de Datos</p>
+</div>
+
+<div class="mockup">
+  <div class="mockup-header">Estructura del Proyecto (.zip)</div>
+  <div class="mockup-body">
+    <pre style="font-family: monospace; font-size: 0.9em; background: #f4f4f4; padding: 15px; border-radius: 5px;">
+AgenteAsistencia/
+├── <b>app.py</b>           (Ejecución principal de NiceGUI)
+├── <b>medicamentos.json</b> (Base de datos local en JSON)
+├── <b>logic/</b>
+│   └── farma_svc.py  (Lógica de búsqueda y carga)
+└── <b>ui/</b>
+    ├── style.css     (Personalización clínica)
+    └── components.py (Fábricas de tarjetas y filtros)
+    </pre>
+  </div>
+</div>
+
+<div class="section" style="margin-top: 2rem;">
+  <h3>Flujo de Datos Real-Time</h3>
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px; border: 1px dashed #2E7D32; border-radius: 8px;">
+    <div style="text-align: center; border: 1px solid #ddd; padding: 5px; border-radius: 4px; background: #fff;">
+      <b>JSON</b><br><small>Medicina</small>
+    </div>
+    <div style="font-size: 1.5rem;">➔</div>
+    <div style="text-align: center; border: 1px solid #ddd; padding: 5px; border-radius: 4px; background: #fff;">
+      <b>Lógica</b><br><small>Filtro</small>
+    </div>
+    <div style="font-size: 1.5rem;">➔</div>
+    <div style="text-align: center; border: 1px solid #2E7D32; padding: 5px; border-radius: 4px; background: #e8f5e9;">
+      <b>NiceGUI</b><br><small>Cards</small>
+    </div>
+  </div>
+</div>
+
+<p style="text-align: center; margin-top: 2rem; color: #666;">¿Continuamos con esta estructura o quieres ajustar algo?</p>

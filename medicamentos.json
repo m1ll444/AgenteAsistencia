@@ -1,0 +1,9 @@
+[
+  {"nombre": "Paracetamol", "forma": "Tableta", "concentracion": "500 mg", "categoria": "Analgésico"},
+  {"nombre": "Amoxicilina", "forma": "Cápsula", "concentracion": "500 mg", "categoria": "Antibiótico"},
+  {"nombre": "Ibuprofeno", "forma": "Tableta", "concentracion": "400 mg", "categoria": "Antiinflamatorio"},
+  {"nombre": "Metformina", "forma": "Tableta", "concentracion": "850 mg", "categoria": "Antidiabético"},
+  {"nombre": "Losartán", "forma": "Tableta", "concentracion": "50 mg", "categoria": "Antihipertensivo"},
+  {"nombre": "Omeprazol", "forma": "Cápsula", "concentracion": "20 mg", "categoria": "Antiulceroso"},
+  {"nombre": "Salbutamol", "forma": "Inhalador", "concentracion": "100 mcg", "categoria": "Broncodilatador"}
+]

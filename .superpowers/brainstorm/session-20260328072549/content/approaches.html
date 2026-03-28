@@ -1,0 +1,42 @@
+<div class="section">
+  <h2>Caminos de Evolución Técnica</h2>
+  <p class="subtitle">¿Cómo estructuramos el corazón de Catálogo Farma EC?</p>
+</div>
+
+<div class="options">
+  <div class="option" data-choice="simple" onclick="toggleSelect(this)">
+    <div class="letter">1</div>
+    <div class="content">
+      <h3>📜 Guion Mejorado</h3>
+      <p>Todo en <code>mili.py</code>. Refactorizamos el buscador para que sea más rápido e integre el dropdown.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul><li>Muy fácil de leer</li><li>Cero configuración extra</li></ul></div>
+        <div class="cons"><ul><li>Difícil de escalar</li><li>Código "sucio" si crece mucho</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="profesional" onclick="toggleSelect(this)">
+    <div class="letter">2</div>
+    <div class="content">
+      <h3>🏗️ Estructura Profesional</h3>
+      <p><b>Recomendado.</b> Datos en un archivo <code>json</code> separado. UI organizada en componentes reutilizables.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul><li>Fácil de actualizar datos</li><li>Código limpio y modular</li></ul></div>
+        <div class="cons"><ul><li>Múltiples archivos</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="db" onclick="toggleSelect(this)">
+    <div class="letter">3</div>
+    <div class="content">
+      <h3>🗄️ Preparado para DB</h3>
+      <p>Usar SQLite desde el inicio. Todo listo para la Fase II de "Persistencia y Gran Escala".</p>
+      <div class="pros-cons">
+        <div class="pros"><ul><li>Búsquedas complejas</li><li>Escalabilidad infinita</li></ul></div>
+        <div class="cons"><ul><li>Más complejidad inicial</li><li>Requiere migraciones</li></ul></div>
+      </div>
+    </div>
+  </div>
+</div>
