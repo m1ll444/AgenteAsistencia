@@ -41,12 +41,15 @@ Crear una herramienta de búsqueda rápida y eficiente que permita a ciudadanos 
 * **RF1.2:** Filtrado por categoría terapéutica (Analgésicos, Antibióticos, Antiinflamatorios, etc.).
 * **RF1.3:** Búsqueda combinada (nombre + categoría simultáneamente).
 
+* **RF1.4:** Sincronización automática con la base de datos oficial de ARCSA (descarga de Excel dinámico).
+
 ### Módulo 2: Visualización de Medicamentos
-* **RF2.1:** Presentación de cada medicamento en tarjetas informativas con:
-  - Nombre del medicamento
-  - Forma farmacéutica (Tableta, Cápsula, Inhalador, etc.)
-  - Concentración registrada
+* **RF2.1:** Presentación de cada medicamento en tarjetas informativas enriquecidas con:
+  - Nombre del medicamento y Fabricante (Titular)
+  - Forma farmacéutica y Concentración
   - Categoría terapéutica (con badge distintivo)
+  - Número de Registro Sanitario
+  - Estado de Vigencia (Badge dinámico: Verde para vigente, Rojo para no vigente)
 * **RF2.2:** Interfaz responsiva que se adapta a diferentes tamaños de pantalla.
 * **RF2.3:** Efectos visuales mejorados (hover effect, transiciones suaves).
 
